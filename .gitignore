@@ -1,0 +1,24 @@
+# --- Credenziali e Configurazioni Locali ---
+secrets.py
+.env
+*.local
+
+# --- Ambienti Virtuali Python ---
+.venv/
+venv/
+
+# --- Cache, Compilati e Firmware MicroPython ---
+__pycache__/
+*.py[cod]
+*.mpy
+*.bin
+
+# --- IDE (VS Code / Thonny) e Sistema Operativo ---
+.vscode/
+.thonny/
+.DS_Store
+Thumbs.db
+
+# --- Log e Backup Temporanei ---
+*.log
+*.bak
